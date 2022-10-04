@@ -1,0 +1,23 @@
+{
+    "name": "companypost/dev",
+    "autoload": {
+        "psr-4": {
+            "Companypost\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "redbulldev",
+            "email": "nv.hung.red@gmail.com"
+        }
+    ],
+    "require": {},
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Companypost\\Providers\\CompanyPostServiceProvider"
+            ]
+        }
+    }
+}
